@@ -144,6 +144,16 @@ body {
 	font-size: 25px;
 	color: #fff;
 }
+
+.el__link {
+	font-size: 25px;
+	color: #db0404;
+}
+
+.container{
+	display:flex;
+}
+
 .el__close-btn {
   z-index: -1;
   position: absolute;
