@@ -146,13 +146,51 @@ body {
 }
 
 .el__link {
-	font-size: 25px;
-	color: #db0404;
+ font-size: 25px;
+ font-weight: bold;
+ background: linear-gradient(to right, #f5f5f1 50%, #221f1f 50%, #e50914);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.2s ease-out;
+}
+
+.el__link:hover {
+ background-position: -100%;
+}
+
+.el__link2 {
+ font-size: 25px;
+ font-weight: bold;
+ background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.2s ease-out;
+}
+
+.el__link2:hover {
+ background-position: -100%;
+}
+
+.el__link3 {
+ font-size: 25px;
+ font-weight: bold;
+ background: linear-gradient(to right, #D65DB1 50%, #FF9671 50%, #F9F871);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.2s ease-out;
+}
+
+.el__link3:hover {
+ background-position: -100%;
 }
 
 .container{
 	display:flex;
 }
+
 
 .el__close-btn {
   z-index: -1;
@@ -279,7 +317,7 @@ body {
 }
 .el:nth-child(1) .el__bg:before {
   transition-delay: 0s;
-  background-image: url("https://images.unsplash.com/photo-1586899028174-e7098604235b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  background-image: url("https://cdn.discordapp.com/attachments/768206784967344191/1025501185928593469/data.png");
 }
 .el:nth-child(2) {
   transform: translate3d(105.2083333333%, 0, 0);
@@ -298,7 +336,7 @@ body {
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url("https://images.unsplash.com/photo-1636036824578-d0d300a4effb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-image: url("https://cdn.discordapp.com/attachments/768352855798841344/1025507126711435376/eb80520b218ff93ccb06c09c9d9cf497-1923035215.png");
 }
 .el:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -317,7 +355,7 @@ body {
 }
 .el:nth-child(3) .el__bg:before {
   transition-delay: 0.2s;
-  background-image: url("https://images.unsplash.com/photo-1531244152181-a2a5772cb621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b25seWZhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://cdn.discordapp.com/attachments/768352855798841344/1025502889042514030/2019-12-18_1587x2160_13e2c13a8cad6e9fbf64093fa2b95b9e5953825dfa562309c92.jpg");
 }
 .el:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
