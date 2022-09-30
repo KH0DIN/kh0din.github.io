@@ -137,16 +137,16 @@ body {
 }
 .el__text {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
 }
 .el__text2 {
-	font-size: 25px;
+	font-size: 20px;
 	color: #fff;
 }
 
 .el__link {
- font-size: 25px;
+ font-size: 20px;
  font-weight: bold;
  background: linear-gradient(to right, #f5f5f1 50%, #221f1f 50%, #e50914);
  background-size: 200%;
@@ -160,7 +160,7 @@ body {
 }
 
 .el__link2 {
- font-size: 25px;
+ font-size: 20px;
  font-weight: bold;
  background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
  background-size: 200%;
@@ -174,7 +174,7 @@ body {
 }
 
 .el__link3 {
- font-size: 25px;
+ font-size: 20px;
  font-weight: bold;
  background: linear-gradient(to right, #D65DB1 50%, #FF9671 50%, #F9F871);
  background-size: 200%;
@@ -186,6 +186,36 @@ body {
 .el__link3:hover {
  background-position: -100%;
 }
+
+.el__link4 {
+ font-size: 20px;
+ font-weight: bold;
+ background: linear-gradient(to right, #D65DB1 50%, #FF9671 50%, #F9F871);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.2s ease-out;
+}
+
+.el__link4:hover {
+ background-position: -100%;
+}
+
+.el__link5 {
+ font-size: 20px;
+ font-weight: bold;
+ background: linear-gradient(to right, #355C7D 50%, #6C5B7B 50%, #C06C84);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.2s ease-out;
+}
+
+.el__link5:hover {
+ background-position: -100%;
+}
+
+
 
 .container{
 	display:flex;
